@@ -1,0 +1,34 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int day, month, year;
+    printf("nhap day : ");
+    scanf(" %d", &day);
+    printf("nhap month : ");
+    scanf("%d", &month);
+    printf("nhap year : ");
+    scanf("%d", &year);
+    
+    printf("\n===============\n");
+
+    if (day > 0 && day < 31) 
+        printf(" true day\n");
+    else 
+        printf(" false day\n");
+    
+    if (month > 0 && month < 12) 
+        printf(" true month \n");
+    else 
+        printf(" false month \n");
+    
+    if (year > 0)
+        printf(" true year \n");
+    else
+        printf("false year\n");
+
+
+
+}
+

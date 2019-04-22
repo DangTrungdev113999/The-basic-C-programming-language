@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int math, physical, chermistry, average;
+    printf("nhap vao math\n");
+    scanf("%d", &math);
+    printf("nhap vao physical\n");
+    scanf("%d", &physical);
+    printf("nhap vao chermistry\n ");
+    scanf("%d", &chermistry);
+
+    printf("math: %d, physical %d, chermistry: %d \n", math, physical, chermistry);
+    average = (math + physical + chermistry) / 3;
+    printf("average = %d\n", average);
+    
+    if (average <= 5)              printf("xep loai yeu can co gang\n");
+    else if (average >5 &&  average <= 6) printf("xep loai trung binh\n");
+    else if (average >6 &&  average <= 7) printf("xep loai  kha\n");
+    else if (average >7 &&  average <= 8) printf("xep loai  gioi \n");
+    else                                 printf("xep loai  xuat sac\n");
+}
+

@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int hours, money;
+    long long salary;
+    printf("nhap vao hours :");
+    scanf("%d", &hours);
+    printf("nhap vao salary :");
+    scanf("%d", &money);
+
+
+    if (hours < 35)
+        salary = hours * money;
+    else
+        salary = 35 * money + (hours - 35) * money * 1.5;
+
+    printf("SALARY = %lld\n", salary);
+
+}
+

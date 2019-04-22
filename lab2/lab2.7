@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int hours, minustes, second;
+    printf("nhap hours : ");
+    scanf("%d", &hours);
+    printf("nhap minustes : ");
+    scanf("%d", &minustes);
+    printf("nhap second");
+    scanf("%d", &second);
+
+    printf("\n=============\n");
+    if (hours > 0 && hours < 24)
+        printf("true hours\n");
+    else
+        printf("false houes\n");
+    
+    if (minustes > 0 && minustes < 60)
+        printf("true minustes\n");
+    else
+        printf("false minustes\n");
+    
+    if(second > 0 && second < 60)
+        printf("true hours\n");
+    else
+        printf("false second\n");
+
+    }
+

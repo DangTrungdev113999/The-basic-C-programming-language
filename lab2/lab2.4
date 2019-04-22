@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int old, new;
+    int m;
+    long long money;
+    printf("nhap vao chi so moi : ");
+    scanf("%d", &new);
+    printf("nhap vao chi so cu : ");
+    scanf("%d", &old);
+    printf("\n==================\n");
+
+    m = new - old;
+    if (m <= 50)
+        money = m * 1000;
+    else if (m > 50 && m <= 100)
+        money = (m - 50) * 2000 + 50 * 1000 + 50 * 2000;
+    else
+        money = (m - 100)*3500 + 50 * 1000 + 50 * 2000;
+
+    printf("money = %lld \n", money);
+
+
+
+}
+

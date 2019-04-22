@@ -1,0 +1,27 @@
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main() {
+//    int yearOfBirth;
+//    char  sex[1];
+//    float math, literature, english, average;
+//        
+//    printf("Enter the year of birth : ");
+//    scanf("%d",&yearOfBirth);
+//    
+//    printf("Enter the sex :");
+//    scanf("%s", &sex);
+//    
+//    printf("Enter the math, literature, english : ");
+//    scanf("%f%f%f", &math, &literature, &english);
+//    
+//    average = (math + literature + english)/3;
+//    
+//    printf("Nam sinh : %d \t gioi tinh : %s \t Diem trung binh : %f \n", yearOfBirth, sex, average);
+//
+//    
+//    
+//    
+//
+//}
+//

@@ -1,0 +1,46 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+    int choose;
+    int a, b;
+    printf("\n======MENU=====\n");
+    printf("1. phep cong\n");
+    printf("2. phep tru\n");
+    printf("3. phep nhan\n");
+    printf("4. phep chia\n");
+            
+    scanf("%d", &choose);
+    
+    switch(choose){
+        case 1: 
+            printf("nhap vao 2 so a,b");
+            scanf("%d%d", &a, &b);
+            printf("%d + %d = %d\n", a, b, a+b);
+            break;
+        case 2: 
+            printf("nhap vao 2 so a,b");
+            scanf("%d%d", &a, &b);
+            printf("%d - %d = %d\n", a, b, a-b);
+            break;
+        case 3: 
+            printf("nhap vao 2 so a,b");
+            scanf("%d%d", &a, &b);
+            printf("%d * %d = %d\n", a, b, a*b);
+            break;
+        case 4: 
+            printf("nhap vao 2 so a,b");
+            scanf("%d%d", &a, &b);
+            printf("%d / %d = %d\n", a, b, a/b);
+            break;
+        default:
+            printf("Fuck mu chu a\n");
+            break;
+    }
+    
+             return 0;
+}
+
+
